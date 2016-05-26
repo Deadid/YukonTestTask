@@ -1,5 +1,6 @@
-package com.yukon.servicemonitor.model;
+package com.yukon.servicemonitor.job;
 
+import com.yukon.servicemonitor.model.ServiceEntity;
 import com.yukon.servicemonitor.service.ServiceCaller;
 import com.yukon.servicemonitor.service.ServiceMonitor;
 import org.quartz.Job;

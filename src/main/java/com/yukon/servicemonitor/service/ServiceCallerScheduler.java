@@ -1,6 +1,10 @@
 package com.yukon.servicemonitor.service;
 
-import com.yukon.servicemonitor.model.*;
+import com.yukon.servicemonitor.job.OutageEndJob;
+import com.yukon.servicemonitor.job.OutageStartJob;
+import com.yukon.servicemonitor.job.ServiceCallJob;
+import com.yukon.servicemonitor.model.OutageInterval;
+import com.yukon.servicemonitor.model.ServiceEntity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.quartz.*;
